@@ -1,0 +1,43 @@
+.header {
+    width: 90%;
+    margin: 20px auto ;
+}
+.header__menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between; 
+}
+.header__meunwarpper {
+    padding-top:12px  
+
+}
+.header__meunwarpper li{
+    list-style: none;
+    display: inline;
+    margin-left: 1em;
+    margin-top: 5px;
+    color :#FF6060;
+    font-size: 24px;
+}
+.header__meunwarpper li.active{
+    text-decoration: underline;
+}
+.header__meunwarpper li:hover {
+
+   color :black;
+}
+@media all and (max-width: 820px) { 
+    .header__logo {
+        width: 90%;
+    }
+    .header__meunwarpper li{ 
+        font-size: 1em;
+        margin-left:12px;
+    }
+    .header__meunwarpper { 
+        padding: 20px 0px;              
+    }
+    .header__linkLogo  {
+        width: 50%;
+    }    
+}

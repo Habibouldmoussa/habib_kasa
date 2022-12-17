@@ -1,12 +1,14 @@
-import styled from 'styled-components'
-const Stylefigure  = styled.figure`
-background-image : url(${props => props.cover})
-`
+import Styles from './Card.module.css'
+import { Link } from "react-router-dom";
+
 function Card(props) {
     return (
-        <Stylefigure key={props.id} cover={props.cover}>
-            <figcaption>{props.name}</figcaption>
-        </Stylefigure>        
+        <article className={Styles.card}>
+            <Link to={`/single/${props.id}`} >
+                <img src={props.cover} className={Styles.card__img} alt={props.title}/>
+                <span className={Styles.card__caption}>{props.title}</span>
+            </Link>
+        </article>
     )
 }
 export default Card

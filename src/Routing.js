@@ -4,7 +4,7 @@ import About from './pages/About';
 import Error from './pages/Error';
 import Single from './pages/Single';
 import Header from './components/Header';
-import Footer from './components/Footer';
+
 
 function  Routing() {
      return (  
@@ -16,7 +16,6 @@ function  Routing() {
                     <Route path='/Single' element={<Single />} />  
                     <Route path='*' element={<Error />} />  
                 </Routes>
-            <Footer />
          </BrowserRouter>
          ) 
  }
