@@ -1,8 +1,12 @@
 import './Single.module.css';
-function Single() {
+import json from '../datas/logements.json'
+import { useParams } from 'react-router-dom';
 
+function Single() {
+    const { id } = useParams()
+    const logment = json.find(log => log.id === id)
     return (
-        <h1>Single</h1>
+        <h1>{logment.id}</h1>
     )
 }
 export default Single 

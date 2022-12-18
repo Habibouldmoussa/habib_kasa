@@ -3,7 +3,7 @@ import Card from '../components/Card'
 import json from '../datas/logements.json'
 import Banner from '../components/Banner'
 import Styles from './Home.module.css'
-import Footer from '../components/Footer';
+
 function Home() {
 
     return (
@@ -16,7 +16,7 @@ function Home() {
                 ))}
             </section>
         </main>
-        <Footer />
+
      </div>
     )
 }

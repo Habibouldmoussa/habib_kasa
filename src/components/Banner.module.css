@@ -3,6 +3,7 @@
     margin: 50px auto;
     border-radius: 30px;
     position: relative;
+    max-width: 1240px;
 }
 
 .banner__filter {
@@ -29,18 +30,20 @@
     .banner__text {
         font-size: 1.5em;
         text-align: left;
-        top: 20px;
-        left:11%
+        top: 30%;
+        width: 80%;
+        margin-left: 12%;
+        
     }
 
     .banner {
         border-radius: 10px;
         height: 100px;
         margin: 30px auto;
+      
     }
 
-    .banner__filter {
-        border-radius: 10px;
+    .banner__filter {        
         height: 100px;
 
     }

@@ -4,19 +4,23 @@ import About from './pages/About';
 import Error from './pages/Error';
 import Single from './pages/Single';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function  Routing() {
      return (  
         <BrowserRouter>
-            <Header />
+                <Header />
                 <Routes>
                     <Route path='/' element={<Home />} />              
                     <Route path='/about' element={<About />} />  
-                    <Route path='/Single' element={<Single />} />  
+                    <Route path='/Single/:id' element={<Single />} />  
+                    <Route path='/Single/*' element={<Single />} />  
                     <Route path='*' element={<Error />} />  
                 </Routes>
+                <Footer />
          </BrowserRouter>
+            
          ) 
  }
 export default Routing;

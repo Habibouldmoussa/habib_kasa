@@ -1,0 +1,33 @@
+.collapse {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.collapse__title {
+    font-size: 24px;
+    color: white;
+    background-color: #FF6060;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.collapse__description {
+    background-color: #F7F7F7;
+    color: #FF6060;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.collapse__title img {
+    float: right;
+    margin-top: 5px;
+}
+
+@media all and (max-width: 820px) {
+    .collapse {
+        width: 100%;       
+    }
+} 
