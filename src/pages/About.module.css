@@ -4,7 +4,9 @@
 }
 
 @media all and (max-width: 820px) {
-
+    .about {
+        margin-bottom: 200px;
+    }
     .about section {
         height: 223px;
         border-radius: 25px;

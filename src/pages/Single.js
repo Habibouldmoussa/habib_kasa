@@ -10,8 +10,6 @@ import starWhite from '../assets/starWhite.png';
 function Single() {
     const { id } = useParams()
     const logment = json.find(log => log.id === id)
-    // const logment = json.find(log => log.id === id)
-    console.log(logment)
     const rating = logment ? logment.rating : 0
     const starts = []
     for (let i = 1; i <= 5; i++) {
