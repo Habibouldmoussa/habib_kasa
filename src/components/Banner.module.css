@@ -5,7 +5,13 @@
     position: relative;
     max-width: 1240px;
 }
+.bannerHome {
+ background: url('../assets/bannerHome.png') no-repeat center;
 
+}
+.bannerAbout {
+    background: url('../assets/bannerApropos.png') no-repeat center;
+}
 .banner__filter {
     background-color: black;
     opacity: 0.2;
