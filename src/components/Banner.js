@@ -8,6 +8,7 @@ const Styledbanner = styled.section`
 background: url(${props => props.background === 'bannerHome' ? imageHome : imageAbout}) no-repeat center ; 
 border-radius: 30px;
 `
+
 function Banner(props) {
     return (
         <Styledbanner background={props.background} className={Styles.banner}>

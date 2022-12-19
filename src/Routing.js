@@ -17,7 +17,7 @@ function Routing() {
                 <Route path='/about' element={<About />} />{ /*Route vers la page apropos */ }
                 <Route path='/Single/:id' element={<Single />} /> { /*Route vers les pages singles*/ }
                 <Route path='/Single/*' element={<Error />} />{ /*Route vers la page d'erreur*/ }
-                <Route path='*' element={<Error />} />
+                <Route path='*' element={<Error />} /> { /*Route vers la page d'erreur*/ }
             </Routes>
             <Footer />
         </BrowserRouter>
