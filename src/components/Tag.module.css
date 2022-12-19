@@ -1,0 +1,24 @@
+.tags {
+    margin: 30px 0;
+}
+
+.tags span {
+    background: #FF6060;
+    color: white;
+    margin-right: 12px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 14px;
+}
+
+@media all and (max-width: 820px) {
+    .tags {
+        margin: 10px 0;    
+    }
+    .tags span {
+        line-height: 30px;
+        font-size: 10px;
+        padding:5px 20px;         
+    }
+
+}

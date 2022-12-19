@@ -3,6 +3,7 @@ import Styles from './Banner.module.css'
 import styled from 'styled-components'
 import imageHome from '../assets/bannerHome.png'
 import imageAbout from '../assets/bannerApropos.png'
+
 function Banner(props) {
     const imagebanner = props.background === 'bannerHome' ? imageHome : imageAbout    
     const Styledbanner = styled.section`

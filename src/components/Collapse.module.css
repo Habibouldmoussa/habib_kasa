@@ -20,7 +20,10 @@
     padding: 20px 15px;
     border-radius: 5px;
 }
-
+.collapse__description li {
+  list-style: none;
+  
+}
 .collapse__title img {
     float: right;
     margin-top: 5px;

@@ -2,24 +2,27 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    color :#FF6060;
+    color: #FF6060;
     font-size: 1.5em;
 }
-.error__title{
+
+.error__title {
     font-size: 8em;
-  
+
 }
-.error__link{
+
+.error__link {
     color: #FF6060;
     margin-top: 135px;
     display: block;
     font-size: 0.7em;
     text-decoration: underline;
 }
-@media all and (max-width: 820px) { 
-    .error__title{
+
+@media all and (max-width: 820px) {
+    .error__title {
         font-size: 4em;
-        margin-top: 50%;      
+        margin-top: 50%;
     }
 
 }
