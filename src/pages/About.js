@@ -1,7 +1,8 @@
+//Importation des composants react
 import Banner from '../components/Banner';
 import Collapse from '../components/Collapse';
 import Styles from './About.module.css';
-
+//Integration du banner et des collapses 
 function About() {
     return (
         <main className={Styles.about}>

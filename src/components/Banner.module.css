@@ -33,17 +33,17 @@
         top: 30%;
         width: 80%;
         margin-left: 12%;
-        
+
     }
 
     .banner {
         border-radius: 10px;
         height: 100px;
         margin: 15px auto;
-      
+
     }
 
-    .banner__filter {        
+    .banner__filter {
         height: 100px;
 
     }
