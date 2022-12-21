@@ -1,6 +1,5 @@
 import Styles from './Tag.module.css'
-function Tag(props) {
-    const tags = props.tags
+function Tag({tags}) {    
     return (
         <div className={Styles.tags}>
             {tags.map((tag) => (

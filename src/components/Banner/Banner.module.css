@@ -1,25 +1,18 @@
 .banner {
     height: 223px;
     margin: 50px auto;
-    border-radius: 30px;
     position: relative;
     max-width: 1240px;
-}
-.bannerHome {
- background: url('../assets/bannerHome.png') no-repeat center;
-
-}
-.bannerAbout {
-    background: url('../assets/bannerApropos.png') no-repeat center;
-}
-.banner__filter {
     background-color: black;
-    opacity: 0.2;
     border-radius: 30px;
-    height: 223px;
-    position: relative;
+}
+
+.banner__image {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
     max-width: 1240px;
-    margin: auto;
+    border-radius: 30px;
 }
 
 .banner__text {
@@ -49,8 +42,8 @@
 
     }
 
-    .banner__filter {
-        height: 100px;
+    .banner__image {
+        border-radius: 10px;
 
     }
 }

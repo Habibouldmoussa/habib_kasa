@@ -1,6 +1,6 @@
 
 //Importation des composants react
-import logo from "../assets/LOGO.svg"
+import logo from "../../assets/LOGO.svg"
 import { NavLink } from 'react-router-dom'
 import styles from './Header.module.css'
 //On integre les balises de navigation de react route 

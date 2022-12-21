@@ -1,5 +1,5 @@
 //Importation des composants react
-import logo from '../assets/logoFooter.svg'
+import logo from '../../assets/logoFooter.svg'
 import Styles from './Footer.module.css'
 function Footer() {
 

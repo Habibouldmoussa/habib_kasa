@@ -3,7 +3,7 @@ import './Error.module.css';
 import Styles from './Error.module.css'
 import { Link } from 'react-router-dom'
 
-function Error() {
+function Error() {   
     return (
         <main className={Styles.error}>
             <h1 className={Styles.error__title}>404</h1>

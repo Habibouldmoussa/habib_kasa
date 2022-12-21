@@ -1,12 +1,15 @@
 //Importation des composants react
-import Banner from '../components/Banner';
-import Collapse from '../components/Collapse';
+import Banner from '../../components/Banner/Banner';
+import Collapse from '../../components/Collapse/Collapse';
 import Styles from './About.module.css';
+import bannerAbout from '../../assets/bannerApropos.png'
+import { useTitleChange }from '../../utils/Hooks/Hooks'
 //Integration du banner et des collapses 
 function About() {
+        useTitleChange()
     return (
         <main className={Styles.about}>
-            <Banner background='bannerAbout' />
+            <Banner background={bannerAbout} />
             <Collapse title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont
                     conformes aux logements, et toutes les informations sont régulièrement vérifiées
                     par nos équipes." />
