@@ -19,6 +19,7 @@
     color: #FF6060;
     padding: 20px 15px;
     border-radius: 5px;
+    font-size: 24px;
 }
 
 .collapse__description li {
@@ -34,5 +35,17 @@
 @media all and (max-width: 820px) {
     .collapse {
         width: 100%;
+    }
+
+    .collapse__title {
+        font-size:13px;
+    }
+
+    .collapse__description {
+        font-size:12px;
+    }
+
+    .collapse__title img { 
+        width: 14px;    
     }
 }
